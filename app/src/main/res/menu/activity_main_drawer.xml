@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_account_balance_black_24dp"
+            android:title="HOME" />
+
+        <item
+            android:id="@+id/nav_dates"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="IMPORTANT DATES" />
+        <item
+            android:id="@+id/nav_registration"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="REGISTRATION" />
+        <item
+            android:id="@+id/nav_schedule"
+            android:icon="@drawable/schedule"
+            android:title="SCHEDULE" />
+
+        <item
+            android:id="@+id/nav_speakers"
+            android:icon="@drawable/ic_record_voice_over_black_24dp"
+            android:title="SPEAKERS" />
+
+        <item
+            android:id="@+id/nav_call"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="CALL FOR PAPERS" />
+        <item
+            android:id="@+id/nav_indsym"
+            android:icon="@drawable/ic_gavel_black_24dp"
+            android:title="INDUSTRY SYMPOSIUM" />
+        <item
+            android:id="@+id/nav_pic"
+            android:icon="@drawable/ic_lightbulb_outline_black_24dp"
+            android:title="PROJECT INNOVATION CONTEST" />
+        <item
+            android:id="@+id/nav_srs"
+            android:icon="@drawable/ic_find_in_page_black_24dp"
+            android:title="STUDENT RESEARCH SYMPOSIUM" />
+
+
+        <item
+            android:id="@+id/nav_committee"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="CONFERENCE COMITTEE" />
+
+
+    </group>
+
+    <item android:title="Contact Us">
+        <menu>
+            <item
+                android:id="@+id/nav_mail"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="MAIL" />
+        </menu>
+    </item>
+
+</menu>

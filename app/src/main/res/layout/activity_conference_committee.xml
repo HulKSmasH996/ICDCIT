@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="2dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="2dp"
+    tools:context="com.kiit.viper.icdcit.ConferenceCommittee">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:background="#ffffffff"
+        android:layout_height="90dp"
+        android:layout_width="match_parent"
+        card_view:cardElevation="3dp"
+        android:layout_marginTop="5dp"
+        card_view:cardCornerRadius="4dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/committee"
+                    />
+            </FrameLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="25dp"
+                android:layout_marginLeft="13dp"
+
+                style="@style/Banner"
+                android:layout_gravity="center_horizontal|center_vertical"
+                android:text="Conference Committee"/>
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:background="#ffffffff"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            card_view:cardElevation="3dp"
+            android:layout_marginTop="5dp"
+            card_view:cardCornerRadius="4dp">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="7dp"
+                android:orientation="vertical">
+            <TextView
+                android:id="@+id/text1"
+                android:padding="5dp"
+                android:layout_marginLeft="7dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                style="@style/Banner"
+                android:text="Patron"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:text="Achyuta Samanta, KIIT, India"/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Advisory Committee"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Maurice Herlihy, Brown Univ., USA"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Gérard Huet, INRIA, France"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="P. P. Mathur, KIIT, India"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Bud Mishra, Courant Inst., NYU, USA"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Hrushikesha Mohanty, UoH, India"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Raja Natarajan, TIFR, India"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="David  Peleg, WIS, Israel"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="R. K. Shyamasundar, IIT Bombay, India."/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="General Chair"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Laxmi Parida, IBM Research, USA"/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Program Chairs"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Paddy Krishnan, Oracle, Australia."/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="P. Radha Krishna, Infosys India"/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Conference Management Chair"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Arup Abhinna Acharya"/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Organizing Chair" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Abhishek Ray"/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Finance Chair" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Manoj Kumar Mishra"/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Publicity Chair" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Siddharth Routray"/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Registration Chairs" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Tanmaya Swain"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Anuj Kumar Acharya"/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Session Management Chairs" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Manjusha Pandey"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Harish Kumar Patnaik"/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Publications Chair" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="R. N. Ramakant Parida"/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Student Symposium Chairs" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Bhabani S.P. Mishra"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Satyaranjan Dash"/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Industry Symposium Chairs" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Prasant Kumar Patnaik"/>
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Project Innovation Contest Chairs" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Chitta Ranjan Pradhan"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Subhasis Dash"/>
+
+                <TextView
+                    android:padding="5dp"
+                    android:layout_marginLeft="7dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    style="@style/Banner"
+                    android:text="Program Committee" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="16dp"
+                    android:text="Animish Mukherjee, IIT Kharagpur, India\nArkady Zaslavsky, CSIRO, Australia\nDana Petcu, West University of Timisoara, Romania\nDmitry Namiot, MSU, Russia\nDVLN Somayajulu, NIT-Warangal, India\nEnnan Zhai, Yale University, USA\nFrancois Gauthier, Oracle Labs, Australia\nGiri Tayi, SUNY at Albany, USA\nGuenter Fahrnberger, University of Hagen, North Rhine-Westphalia, Germany\nHrushikesha Mohanty, University of Hyderabad, India\nHung Dang Van UET, Vietnam National University, Vietnam\nJanakiram D, IIT Chennai, India\nJens Dietrich, Massey, New Zealand\nKrishnendu Mukhopadhyaya, Indian Statistical Institute, India\nKishore Kothapalli, IIIT, Hyderabad, India\nLaura Kovacs, Chalmers University of Technology, Sweden\nLuigia Petre, Åbo Akademi University, Finland\nMahesh Tripunitara, University of Waterloo, Canada\nManas Ranjan Patra, Berhampur University, India\nManik Lal Das, DA-IICT, India\nMarc Frincu, University of Southern California, USA\nMarkus Lumpe, Swinburne University of Technology, Australia\nNagesh Sristy, IDRBT-Hyderabad, India\nNikolaj Bjorner, Microsoft Research, USA\nPradeep Kumar, IIM-Lucknow, India\nRaja N., TIFR, India\nSanjiva Prasad, IIT Delhi, India\nSiraj Shaikh, Coventry University, UK\nSmruti Sarangi, IIT Delhi, India\nTatjana Petrov, IST Austria\nVikram Goyal, IIIT-Delhi, India\nVikram Pudi, IIIT-Hyderabad, India\nWei Xu, Tsinghua University, China\n"/>
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

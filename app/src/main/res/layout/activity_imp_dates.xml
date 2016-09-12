@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="2dp"
+    tools:context="com.kiit.viper.icdcit.ImpDates">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:background="#ffffffff"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                card_view:cardElevation="3dp"
+                android:layout_marginTop="5dp"
+                card_view:cardCornerRadius="4dp">
+                <ProgressBar
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/progressBar1"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="130dp"
+                        android:text="Call For Papers"
+                        style="@style/Banner"
+                        />
+                    <TextView
+                        android:layout_marginLeft="9dp"
+                        android:layout_marginTop="12dp"
+                        android:id="@+id/text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:background="#ffffffff"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                card_view:cardElevation="3dp"
+                android:layout_marginTop="5dp"
+                card_view:cardCornerRadius="4dp">
+                <ProgressBar
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/progressBar2"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="100dp"
+                        android:text="7th Industry Symposium"
+                        style="@style/Banner"
+                        />
+                    <TextView
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/text2"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:background="#ffffffff"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                card_view:cardElevation="3dp"
+                android:layout_marginTop="5dp"
+                card_view:cardCornerRadius="4dp">
+                <ProgressBar
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/progressBar3"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="80dp"
+                        android:text="6th Project Innovation Contest"
+                        style="@style/Banner"
+                        />
+                    <TextView
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/text3"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:background="#ffffffff"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                card_view:cardElevation="3dp"
+                android:layout_marginTop="5dp"
+                card_view:cardCornerRadius="4dp">
+                <ProgressBar
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/progressBar4"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15dp"
+                        android:layout_marginLeft="65dp"
+                        android:layout_marginTop="4dp"
+                        android:text="7th Student Research Symposuim"
+                        style="@style/Banner"
+                        />
+                    <TextView
+                        android:layout_marginLeft="7dp"
+                        android:id="@+id/text4"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
+
